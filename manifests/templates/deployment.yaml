@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: fong
-          image: docker.io/phengbunath/fong:1
+          image: docker.io/phengbunath/fong:3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
